@@ -1,6 +1,7 @@
 
 #n2
-#Brute force converter
+# Brute force converter
+# basic, add more conversions + error response
 
 def converter():
     num1 = input('Enter the value: ')

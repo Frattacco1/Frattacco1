@@ -1,6 +1,7 @@
-Obbiettivi/ changelog
+# Obbiettivi/ changelog
 
-# linguaggio è python, per ora sò solo questo
+- linguaggio è python, per ora sò solo questo
+
 Obbiettivo
 scrivere un programma che risolva problemi di fisica legati a vari argomenti
 

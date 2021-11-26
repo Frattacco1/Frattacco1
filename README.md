@@ -14,4 +14,4 @@ educational purpose --> shows steps to get to final solution
 Changes:
 
 25/11/2021
-added the metric system
+added the metric system conversion

@@ -1,3 +1,4 @@
+Obbiettivi/ changelog
 
 # linguaggio è python, per ora sò solo questo
 Obbiettivo

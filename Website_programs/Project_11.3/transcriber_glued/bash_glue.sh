@@ -17,7 +17,7 @@ echo 'first converter --done'
 echo "------------converter_2--------------" >> transcription_def.txt
 python converter_2.py "$other_file" >> transcription_def.txt
 echo 'second converter --done'
-rm /Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_glued/file_test.mp4
-rm /Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_glued/output_audio.mp3
-rm /Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_glued/converted_audio.wav
+rm /Users/location/of_the/download/file_test.mp4
+rm /Users/location/of_the/download/output_audio.mp3
+rm /Users/location/of_the/download/converted_audio.wav
 echo 'remove extra files -- done'

@@ -1,17 +1,12 @@
-# Goals / changelog
-
-- linguaggio è python, per ora sò solo questo
-- the languge used is python
+Goal:
 
 
-Goals:
-write a program to resolve physisc problems that i'm studing rn
-feel free to add new topics
 
 
-educational purpose --> shows steps to get to final solution
+Changelog:
+0/0/2020
+- first contact with github
+- added the converter program (whatever that was)
 
-Changes:
-
-25/11/2021
-added the metric system conversion
+4/11/2023
+- add all the website stuff to github in this Project and more

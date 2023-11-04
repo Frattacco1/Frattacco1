@@ -19,15 +19,15 @@ def mp3_downloader(url):
     print(yt.title)
     video = yt.streams.filter(only_audio=True).first()
     new_filename = 'file_test.mp4'
-    download_path = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF'
+    download_path = '/Users/location/of_the/file/transcriber_DEF'
     print("Downloading...")
     video.download(output_path=download_path, filename=new_filename)
     print("\nDownload complete!")
 
 def os_converter():
-    input_video_path = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/file_test.mp4'
-    output_audio_path = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/file_test.mp3'
-    output_audio_wav_path = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/converted_audio.wav'
+    input_video_path = '/Users/location/of_the/file/file_test.mp4'
+    output_audio_path = '/Users/location/of_the/file/file_test.mp3'
+    output_audio_wav_path = '/Users/location/of_the/file/converted_audio.wav'
     os.system(f'ffmpeg -i {input_video_path} -vn -acodec mp3 -ab 192k -ar 44100 -y {output_audio_path}')
     sleep = 1
     os.system(f"ffmpeg -i {output_audio_path} -acodec pcm_s16le -ar 16000 {output_audio_wav_path}")
@@ -73,8 +73,8 @@ if file_name == '':
     output_filename = 'transcription_file.txt'
 else:
     output_filename = file_name + '.txt'
-audio_file = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/converted_audio.wav'
-output_filename_2 = f'/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/{output_filename}'
+audio_file = '/Users/location/of_the/file/converted_audio.wav'
+output_filename_2 = f'/Users/location/of_the/file/{output_filename}'
 print('''
 The conversion may take a while depending on the length of the video.
 do something else for 5 to 10 minutes.
@@ -88,8 +88,8 @@ converter_1(audio_file, output_filename_2)
 # progress_thread.join()
 
 
-file_path_1 = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/file_test.mp3'
-file_path_2 = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_DEF/file_test.mp4'
+file_path_1 = '/Users/location/of_the/file/file_test.mp3'
+file_path_2 = '/Users/location/of_the/file/file_test.mp4'
 try:
     os.remove(file_path_1)
     os.remove(file_path_2)

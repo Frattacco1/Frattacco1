@@ -12,7 +12,7 @@ def mp3_downloader(url):
     print(yt.title)
     video = yt.streams.filter(only_audio=True).first()
     new_filename = 'file_test.mp4'
-    download_path = '/Users/fradere/Documents/projects_dir/Project_11/Project_11.3/transcriber_glued'
+    download_path = '/Users/location/of_the/download'
     print("Downloading...")
     video.download(output_path=download_path, filename=new_filename)
     print("\nDownload complete!")
